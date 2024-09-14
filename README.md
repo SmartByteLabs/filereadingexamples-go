@@ -102,8 +102,12 @@ Ram : 16 GB
 | words_3.txt   | 1.1 GB        | 103.2 Million             | 26 Million                      | 25                     | 59                        | 28                      |
 
 ### Note
-The text files used for this operation done locally are larger that _100 MB_. The repo consists of files with size 1-10 MB only. For generating your own txt based files, use any `text_generator` scripts that can generate large txt based files.
+The file operations done on our local environment are larger than _100 MB_. You can generate large txt files using `words_generater.go` present in `scripts` directory.
 
+```go
+cd scripts
+go run words_generator.go 200 MB
+```
 
 
 
